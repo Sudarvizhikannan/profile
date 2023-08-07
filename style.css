@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Images/backimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    background-color: rgb(17, 15, 15);
+}
+.logo{
+    height: 100px;
+    padding: 0 0 0 20px;
+    /* display: none; */
+}
+.logo img{
+    height: 130%;
+}
+.aboutimg{
+    height: 200px;
+    /* padding: 90px 0 0 30px; */
+}
+.aboutimg img{
+    height: 280%;
+}
+.navcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    /* display: none; */
+}
+.navlinks{
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    list-style-type: none;
+    height: 100px;
+    /* background-color: blue; */
+    padding: 0 20px 0 0 ;
+    background: linear-gradient(-90deg,rgb(19, 18, 18),transparent 100%);
+}
+.navlinks li{
+    /* height: 30%; */
+    padding: 10px;
+    /* background-color: aquamarine; */
+    border-radius: 5px;
+}
+.navlinks a:hover{
+
+}
+.navlinks a{
+    /* height: 10vh; */
+    /* background-color: aqua; */
+    color: white;
+    height: 50%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navlinks li:hover {
+    border: 1px dotted white;
+    /* border-bottom: 2px solid white; */
+}
+.checkbtn{
+    font-size: 20px;
+    padding: 7px;
+    border: 1px solid white;
+    display: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#check{
+    display: none;
+}
+.heroimg img{
+    height: 400px ;
+    /* background-color: aqua; */
+    /* border-radius: 990px; */
+}
+.content p{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.6px;
+    font-size: 23px;
+    text-align: center;
+    padding: 0 300px 10px 0 ;
+}
+.content p:hover{
+    color: rgb(161, 150, 150);
+}
+.content h1{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.6px;
+    padding: 0 300px 10px 0 ;
+    /* cursor: pointer; */
+}
+.content h1:hover{
+    color: rgb(151, 147, 147);
+}
+
+.herocontainer{
+    display: flex;
+    align-items: center;
+    /* border: 1px dotted rgb(175, 172, 172); */
+    padding: 0 50px 0 50px;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.media li{
+    padding: 10px 0 10px 0;
+    /* border: 1px dotted rgb(27, 26, 26); */
+    font-size: 22px;
+    list-style-type: none;
+}
+.aboutcontainer{
+    display: flex;
+    align-items: center;
+    /* border: 1px dotted rgb(175, 172, 172); */
+    padding:70px 50px 70px 50px;
+    justify-content: space-between;
+    border-radius: 30px;
+    color: white;
+}
+.about img{
+    height: 200px;
+}
+.abtbox{
+    display: flex;
+    align-items: center;
+}
+.aboutimg img{
+    height: 140%;
+}
+.aboutcontainer p{
+    font-size: 20px;
+    padding: 0 10px 0 30px;
+    width:50%;
+    line-height: 29px;
+}
+.qulifcontainer{
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.qulifcard{
+    border: 1px solid white;
+    background-color: rgb(58, 50, 50);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px;
+}
+.qualifheader img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.a1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0 0px 0;
+}
+.a2{
+    font-size: 25px;
+    padding: 20px 0 10px 0;
+    color: rgb(169, 163, 173);
+}
+.a3{
+    font-size: 19px;
+    padding: 10px 0 10px 0;
+    color: rgb(226, 132, 9);
+}
+.a4{
+    color: rgb(226, 132, 9);
+    padding: 60px 0 0  0;
+    font-size: 19px;
+}
+.a5{
+    font-size: 19px;
+    color: rgb(226, 132, 9);
+    padding: 25px 0 20px  0;
+}
+main h4{
+    color: white;
+    font-size: 40px;
+    padding: 20px 0 0 40px;
+}
+main h4:hover{
+    color: rgb(173, 151, 151);
+}
+.skillcontainer{
+    padding: 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 1rem;
+    color: white;
+    text-align: center;
+}
+.skillheader img{
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 50%;
+    padding: 10px ;
+    border-radius: 80px;
+}
+.skillheader img:hover{
+    background-color: rgb(247, 246, 248);
+}
+.skillcard{
+    border: 1px solid white;
+    border-top: 1px solid black;
+    background-color: rgb(58, 50, 50);
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 1px;
+    /* border-bottom: 1px solid black; */
+}
+.b1{
+    font-size: 23px;
+    padding: 10px 0 10px 0;
+}
+.b2{
+    font-size: 17px;
+    padding: 0 0 9px 0;
+}
+.skillcard p{
+    line-height: 26px;
+}
+.projectcontainer{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 0px 40px;
+}
+.proleft{
+    width: 55%;
+    border-right:1px dotted white ;
+}
+.proright{
+    width: 50%;
+}
+.proleft h4{
+    font-size: 24px;
+    color: rgb(180, 170, 170);
+}
+.proright h4{
+    font-size: 24px;
+    color: rgb(180, 170, 170);
+}
+.probox a h4:hover{
+    color: white;
+}
+.probox a{
+    text-decoration: none;
+}
+.proimg img{
+    height: 121px;
+    border: 3px solid white;
+}
+.probox{
+    /* border: 1px dotted white; */
+    padding: 0px 0 10px 0;
+}
+.probox p{
+    /* width: 100%; */
+    font-size: 17px;
+    padding: 10px 60px 10px 60px;
+    line-height: 20px;
+}
+.skillheader img{
+    border-radius: 150px;
+}
+.prosquare h4{
+    width: 90%;
+    padding: 10px 0 10px 0;
+}
+.proh4{
+    font-size: 25px;
+}
+.formcontainer{
+    color: white;
+    padding: 30px 230px 20px 280px;
+}
+form{
+    font-size: 20px;
+    /* width: 80%; */
+    align-items: center;
+}
+.formbox{
+    padding: 50px 60px 30px 160px;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    /* padding: 10px 0 0 0; */
+    margin-bottom: 28px;
+    width: 450px;
+}
+input[type="text"]{
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+form{
+    /* padding: 50px 30px 40px 90px; */
+}
+input[type="email"]{
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+input[type="number"]{
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    /* padding: 20px; */
+    margin-left: 180px;
+    /* padding: 0 0 10px 0; */
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(26, 21, 21);
+    color: white;
+}
+label[for="email"]{
+    padding: 0 0 0 9px;
+}
+label[for="name"]{
+    padding: 0 0 0 9px;
+}
+.contactmedia{
+    list-style-type: none;
+    display: flex;
+    width: 70%;
+    font-size: 27px;
+    justify-content: space-between;
+    padding: 40px 0 0 120px;
+    /* margin-left: 120px; */
+}
+.formbox{
+    border: 1px solid white;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+}
